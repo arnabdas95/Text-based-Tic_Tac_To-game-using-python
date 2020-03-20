@@ -122,8 +122,8 @@ turn = ['','','','','','','','','']
 user = (input("Enter which sign do you want: X or O ")).upper()
 if user == 'X':
     computer = 'O'
-elif user == 'x':
-    computer = 'O'
+elif user == 'O':
+    computer = 'X'
 else:
     print("Wrong input. Computer take X")
     user = 'O'
